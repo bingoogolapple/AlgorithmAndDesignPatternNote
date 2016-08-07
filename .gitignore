@@ -38,7 +38,7 @@ proguard/
 *.iws
 .idea/
 
-.out/
+out/
 
 # Mac system files
 .DS_Store
