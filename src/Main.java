@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = {5, 2, 6, 3, 8, 7};
         printArray("排序前:", array);
-        SortUtil.selectionSort(array);
+        SortUtil.insertSort(array);
         printArray("排序后:", array);
     }
 
