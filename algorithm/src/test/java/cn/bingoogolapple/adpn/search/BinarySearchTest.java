@@ -21,7 +21,8 @@ public class BinarySearchTest {
     @Test
     public void binarySearch() throws Exception {
         int[] arr = new int[]{1, 2, 6, 9, 20, 57};
-        int result = BinarySearch.binarySearch(arr, 6, 0, arr.length - 1);
+        int result = BinarySearch.binarySearchWithRecursion(arr, 6);
+//        int result = BinarySearch.binarySearchWithoutRecursion(arr, 6);
         System.out.println("result = " + result);
     }
 
